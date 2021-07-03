@@ -3,25 +3,29 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro notaum, notadois, notatres, notaquatro, notafinal
-
+		real nota1, nota2, nota3, nota4, final
+		cadeia nome
+		
 		escreva("Bem vindo ao sistema \n\n")
 
-		escreva("Digite a primeira nota do aluno:\n")
-		leia(notaum)
+		escreva("Digite o nome do aluno:\n")
+		leia(nome)
 
-		escreva("\n\nDigite a segunda nota do aluno:\n\n")
-		leia(notadois)
+		escreva("\nDigite a primeira nota do aluno:\n")
+		leia(nota1)
 
-		escreva("\n\nDigite a terceira nota do aluno:\n\n")
-		leia(notatres)
+		escreva("\nDigite a segunda nota do aluno:\n")
+		leia(nota2)
 
-		escreva("\n\nDigite a quarta nota do aluno:\n\n")
-		leia(notaquatro)
+		escreva("\nDigite a terceira nota do aluno:\n")
+		leia(nota3)
 
-		notafinal = (notaum+notadois+notatres+notaquatro)/4
+		escreva("\nDigite a quarta nota do aluno:\n")
+		leia(nota4)
 
-		escreva("O aluno obteve "+notafinal)
+		final = (nota1+nota2+nota3+nota4)/4
+
+		escreva("O aluno "+ nome +" obteve " + final)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -29,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 433; 
+ * @POSICAO-CURSOR = 39; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
