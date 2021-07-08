@@ -2,6 +2,8 @@
 Repositório criado com intuito de documentar o aprendizado em lógica de programação.
 
 Projetos realizados:
+
+
 [Divisão Por Cinco](https://github.com/luiz-gabriel/logica-de-programacao/blob/main/divisao-por-cinco.por)
 
 
